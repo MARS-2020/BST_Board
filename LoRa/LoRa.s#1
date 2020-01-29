@@ -1678,7 +1678,6 @@ Source: &lt;a href="http://www.cui.com/product/resource/up2-ah-th.pdf"&gt; Datas
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k"/>
 <part name="J1" library="USB_Con" deviceset="UP2-AH-1-TH" device=""/>
 <part name="+5V1" library="microbuilder" deviceset="VIN" device=""/>
-<part name="U$1" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1706,7 +1705,6 @@ Source: &lt;a href="http://www.cui.com/product/resource/up2-ah-th.pdf"&gt; Datas
 <instance part="R1" gate="G$1" x="147.32" y="223.52"/>
 <instance part="J1" gate="G$1" x="238.76" y="226.06"/>
 <instance part="+5V1" gate="G$1" x="226.06" y="233.68"/>
-<instance part="U$1" gate="G$1" x="269.24" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -1761,12 +1759,6 @@ Source: &lt;a href="http://www.cui.com/product/resource/up2-ah-th.pdf"&gt; Datas
 <junction x="139.7" y="218.44"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="259.08" y1="223.52" x2="269.24" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="269.24" y1="218.44" x2="269.24" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -1898,20 +1890,6 @@ Source: &lt;a href="http://www.cui.com/product/resource/up2-ah-th.pdf"&gt; Datas
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="152.4" y1="223.52" x2="160.02" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D_MINUS" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="223.52" x2="231.14" y2="223.52" width="0.1524" layer="91"/>
-<label x="228.6" y="223.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D_PLUS" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="259.08" y1="226.06" x2="269.24" y2="226.06" width="0.1524" layer="91"/>
-<label x="261.62" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
