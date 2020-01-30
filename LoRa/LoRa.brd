@@ -517,80 +517,6 @@ http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</description>
 </package3d>
 </packages3d>
 </library>
-<library name="STM32L072CZT7">
-<description>&lt;ARM Microcontrollers - MCU 16/32-BITS MICROS&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="QFP50P900X900X160-48N">
-<description>&lt;b&gt;LQFP48&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-4.238" y="2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="2" x="-4.238" y="2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="3" x="-4.238" y="1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="4" x="-4.238" y="1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="5" x="-4.238" y="0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="6" x="-4.238" y="0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="7" x="-4.238" y="-0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="8" x="-4.238" y="-0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="9" x="-4.238" y="-1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="10" x="-4.238" y="-1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="11" x="-4.238" y="-2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="12" x="-4.238" y="-2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="13" x="-2.75" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="-2.25" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="-1.75" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="-1.25" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="-0.75" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="-0.25" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="0.25" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="0.75" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="1.25" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="22" x="1.75" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="23" x="2.25" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="24" x="2.75" y="-4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="25" x="4.238" y="-2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="26" x="4.238" y="-2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="27" x="4.238" y="-1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="28" x="4.238" y="-1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="29" x="4.238" y="-0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="30" x="4.238" y="-0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="31" x="4.238" y="0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="32" x="4.238" y="0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="33" x="4.238" y="1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="34" x="4.238" y="1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="35" x="4.238" y="2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="36" x="4.238" y="2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="37" x="2.75" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="38" x="2.25" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="39" x="1.75" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="40" x="1.25" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="41" x="0.75" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="42" x="0.25" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="43" x="-0.25" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="44" x="-0.75" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="45" x="-1.25" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="46" x="-1.75" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="47" x="-2.25" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<smd name="48" x="-2.75" y="4.238" dx="1.475" dy="0.3" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.225" y1="5.225" x2="5.225" y2="5.225" width="0.05" layer="51"/>
-<wire x1="5.225" y1="5.225" x2="5.225" y2="-5.225" width="0.05" layer="51"/>
-<wire x1="5.225" y1="-5.225" x2="-5.225" y2="-5.225" width="0.05" layer="51"/>
-<wire x1="-5.225" y1="-5.225" x2="-5.225" y2="5.225" width="0.05" layer="51"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
-<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.2" layer="21"/>
-<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.2" layer="21"/>
-<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.2" layer="21"/>
-<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.2" layer="21"/>
-<circle x="-4.725" y="3.5" radius="0.125" width="0.25" layer="25"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -810,16 +736,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1146032" x="54.864" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="91K9918" x="54.864" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="14" x="54.864" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="IC2" library="STM32L072CZT7" package="QFP50P900X900X160-48N" value="STM32L072CZT7" x="37.846" y="9.906">
-<attribute name="DESCRIPTION" value="ARM Microcontrollers - MCU 16/32-BITS MICROS" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.6mm" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STM32L072CZT7" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-STM32L072CZT7" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32L072CZT7" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

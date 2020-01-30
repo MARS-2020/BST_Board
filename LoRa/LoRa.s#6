@@ -1607,6 +1607,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <sheets>
 <sheet>
 <plain>
+<text x="53.34" y="241.3" size="1.778" layer="91">LoRa Module</text>
+<text x="154.94" y="233.68" size="1.778" layer="91">Linear Regulator</text>
+<text x="40.64" y="170.18" size="1.778" layer="91">PULL UP CS and RST using 100k?</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

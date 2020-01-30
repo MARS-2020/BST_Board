@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -811,15 +811,15 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="91K9918" x="54.864" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="14" x="54.864" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC2" library="STM32L072CZT7" package="QFP50P900X900X160-48N" value="STM32L072CZT7" x="-2.286" y="-21.336">
-<attribute name="DESCRIPTION" value="ARM Microcontrollers - MCU 16/32-BITS MICROS" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.6mm" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STM32L072CZT7" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-STM32L072CZT7" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32L072CZT7" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-2.286" y="-21.336" size="1.778" layer="27" display="off"/>
+<element name="IC2" library="STM32L072CZT7" package="QFP50P900X900X160-48N" value="STM32L072CZT7" x="37.846" y="9.906">
+<attribute name="DESCRIPTION" value="ARM Microcontrollers - MCU 16/32-BITS MICROS" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.6mm" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STM32L072CZT7" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-STM32L072CZT7" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32L072CZT7" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="37.846" y="9.906" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

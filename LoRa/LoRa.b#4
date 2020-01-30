@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -158,9 +158,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="20.31" width="0" layer="20"/>
-<wire x1="100" y1="20.31" x2="0" y2="20.31" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="66.98" y2="0" width="0" layer="20"/>
+<wire x1="66.98" y1="0" x2="66.98" y2="20.31" width="0" layer="20"/>
+<wire x1="66.98" y1="20.31" x2="0" y2="20.31" width="0" layer="20"/>
 <wire x1="0" y1="20.31" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -628,28 +628,28 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP2" library="microbuilder" package="1X01_ROUND" value="" x="7.62" y="17.78"/>
-<element name="U1" library="microbuilder" package="RFMHCW_SMT" value="RFM69HCW" x="17.78" y="10.16" rot="R90"/>
+<element name="JP2" library="microbuilder" package="1X01_ROUND" value="" x="6.35" y="15.24"/>
+<element name="U1" library="microbuilder" package="RFMHCW_SMT" value="RFM69HCW" x="16.256" y="9.144" rot="R180"/>
 <element name="X1" library="microbuilder" package="SMA_EDGELAUNCH_UFL" value="uFL/SMA" x="1.27" y="15.24"/>
-<element name="U3" library="microbuilder" package="SOT23-5" value="AP2112K-3.3" x="-36.576" y="-4.826"/>
-<element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF" x="-35.814" y="-20.066">
-<attribute name="PROD_ID" value="CAP-11015" x="-35.814" y="-20.066" size="1.778" layer="27" display="off"/>
+<element name="U3" library="microbuilder" package="SOT23-5" value="AP2112K-3.3" x="53.34" y="16.764" rot="R90"/>
+<element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF" x="5.08" y="7.112" rot="R270">
+<attribute name="PROD_ID" value="CAP-11015" x="5.08" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF" x="-35.814" y="-23.368">
-<attribute name="PROD_ID" value="CAP-11015" x="-35.814" y="-23.368" size="1.778" layer="27" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF" x="56.896" y="14.986" rot="R270">
+<attribute name="PROD_ID" value="CAP-11015" x="56.896" y="14.986" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k" x="-35.814" y="-26.67">
-<attribute name="PROD_ID" value="RES-07828" x="-35.814" y="-26.67" size="1.778" layer="27" display="off"/>
+<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k" x="58.928" y="16.764" rot="R90">
+<attribute name="PROD_ID" value="RES-07828" x="58.928" y="16.764" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J1" library="USB_Con" package="UP2-AH-1-TH" value="UP2-AH-1-TH" x="-12.446" y="-66.294">
-<attribute name="DESCRIPTION" value="USB Connectors USB 2.0 type A plug 4 pin Horizontal TH" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="CUI" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UP2-AH-1-TH" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="490-UP2-AH-1-TH" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-UP2-AH-1-TH" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-12.446" y="-66.294" size="1.778" layer="27" display="off"/>
+<element name="J1" library="USB_Con" package="UP2-AH-1-TH" value="UP2-AH-1-TH" x="81.534" y="10.414" rot="R90">
+<attribute name="DESCRIPTION" value="USB Connectors USB 2.0 type A plug 4 pin Horizontal TH" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="CUI" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UP2-AH-1-TH" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-UP2-AH-1-TH" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-UP2-AH-1-TH" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PART_NUMBER" value="" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="81.534" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -664,34 +664,26 @@ design rules under a new name.</description>
 <polygon width="0.2032" layer="1">
 <vertex x="0" y="20.32"/>
 <vertex x="0" y="0"/>
-<vertex x="100.076" y="0"/>
-<vertex x="100.076" y="20.32"/>
+<vertex x="67.056" y="0"/>
+<vertex x="67.056" y="20.32"/>
 </polygon>
 <polygon width="0.2032" layer="16">
 <vertex x="0" y="20.32"/>
 <vertex x="0" y="0"/>
-<vertex x="100.076" y="0"/>
-<vertex x="100.076" y="20.32"/>
+<vertex x="67.056" y="0"/>
+<vertex x="67.056" y="20.32"/>
 </polygon>
 <contactref element="U3" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
-<wire x1="-34.964" y1="-20.066" x2="-34.964" y2="-23.368" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.576" y1="-6.1261" x2="-34.964" y2="-20.066" width="0" layer="19" extent="1-1"/>
-<wire x1="3.302" y1="12.7" x2="-36.576" y2="-6.1261" width="0" layer="19" extent="1-1"/>
-<wire x1="3.302" y1="12.7" x2="3.302" y2="12.7" width="0" layer="19" extent="1-16"/>
-<wire x1="3.302" y1="17.78" x2="3.302" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="3.302" y1="17.78" x2="3.302" y2="17.78" width="0" layer="19" extent="1-16"/>
-<wire x1="10.78" y1="2.06" x2="3.302" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="24.78" y1="2.06" x2="10.78" y2="2.06" width="0" layer="19" extent="1-1"/>
-<wire x1="22.78" y1="18.26" x2="24.78" y2="2.06" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="4"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="5P"/>
 <contactref element="U3" pad="5"/>
 <contactref element="C2" pad="1"/>
-<wire x1="-37.526" y1="-3.5259" x2="-36.664" y2="-20.066" width="0" layer="19" extent="1-1"/>
-<wire x1="16.78" y1="18.26" x2="-37.526" y2="-3.5259" width="0" layer="19" extent="1-1"/>
+<wire x1="8.156" y1="8.144" x2="52.0399" y2="15.814" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="7.962" x2="8.156" y2="8.144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST">
 <contactref element="U1" pad="14P"/>
@@ -712,8 +704,8 @@ design rules under a new name.</description>
 <contactref element="X1" pad="P"/>
 <contactref element="U1" pad="1P"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="7.62" y1="17.78" x2="24.78" y2="18.26" width="0" layer="19" extent="1-1"/>
-<wire x1="4.318" y1="15.24" x2="7.62" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="15.24" x2="8.156" y2="16.144" width="0" layer="19" extent="1-1"/>
+<wire x1="4.318" y1="15.24" x2="6.35" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO3">
 <contactref element="U1" pad="3P"/>
@@ -738,14 +730,20 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="-36.664" y1="-23.368" x2="-36.664" y2="-26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.526" y1="-6.1261" x2="-36.664" y2="-23.368" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.946" y1="-46.394" x2="-36.664" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="15.836" x2="58.928" y2="15.914" width="0" layer="19" extent="1-1"/>
+<wire x1="54.6401" y1="15.814" x2="56.896" y2="15.836" width="0" layer="19" extent="1-1"/>
+<wire x1="61.634" y1="13.914" x2="58.928" y2="15.914" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
 <contactref element="U3" pad="3"/>
-<wire x1="-35.626" y1="-6.1261" x2="-34.964" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="54.6401" y1="17.714" x2="58.928" y2="17.614" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D_MINUS">
+<contactref element="J1" pad="2"/>
+</signal>
+<signal name="D_PLUS">
+<contactref element="J1" pad="3"/>
 </signal>
 </signals>
 </board>

@@ -2583,7 +2583,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32l072v8-956310.pd
 <plain>
 <text x="53.34" y="241.3" size="1.778" layer="91">LoRa Module</text>
 <text x="154.94" y="233.68" size="1.778" layer="91">Linear Regulator</text>
-<text x="40.64" y="170.18" size="1.778" layer="91">PULL UP CS and RST using 100k?</text>
+<text x="22.86" y="187.96" size="1.778" layer="91">PULL UP CS and RST using 100k?</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2605,7 +2605,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32l072v8-956310.pd
 <instance part="J1" gate="G$1" x="238.76" y="226.06"/>
 <instance part="+5V1" gate="G$1" x="226.06" y="233.68"/>
 <instance part="U$1" gate="G$1" x="269.24" y="215.9"/>
-<instance part="IC1" gate="1" x="55.88" y="66.04"/>
+<instance part="IC1" gate="1" x="58.42" y="91.44"/>
 <instance part="IC2" gate="G$1" x="175.26" y="78.74"/>
 </instances>
 <busses>
