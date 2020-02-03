@@ -162,10 +162,9 @@
 <wire x1="59.36" y1="0" x2="59.36" y2="27.93" width="0" layer="20"/>
 <wire x1="59.36" y1="27.93" x2="0" y2="27.93" width="0" layer="20"/>
 <wire x1="0" y1="27.93" x2="0" y2="0" width="0" layer="20"/>
-<text x="16.256" y="1.016" size="1.016" layer="25">MARS
+<text x="14.478" y="1.016" size="1.4224" layer="25">MARS
 Base Station v1
-2/3/2020
-Jacob Bobson</text>
+2/3/2020</text>
 </plain>
 <libraries>
 <library name="microbuilder">
