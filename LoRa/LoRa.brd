@@ -1327,6 +1327,7 @@ Please make sure your boards conform to these design rules.
 <via x="57.15" y="26.162" extent="1-16" drill="0.35"/>
 <via x="56.896" y="17.78" extent="1-16" drill="0.35"/>
 <via x="48.768" y="6.35" extent="1-16" drill="0.35"/>
+<via x="33.528" y="6.096" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U2" pad="5P"/>
