@@ -1709,7 +1709,17 @@ Please make sure your boards conform to these design rules.
 <wire x1="52.07" y1="9.398" x2="54.76" y2="9.398" width="0.254" layer="1"/>
 <wire x1="54.76" y1="9.398" x2="54.776" y2="9.382" width="0.254" layer="1"/>
 </signal>
-<signal name="N$3">
+<signal name="CUTOUT_USB1">
+<polygon width="0.2032" layer="16" pour="cutout">
+<vertex x="47.498" y="12.954"/>
+<vertex x="47.498" y="9.906"/>
+<vertex x="48.768" y="9.906"/>
+<vertex x="52.324" y="6.35"/>
+<vertex x="55.626" y="6.35"/>
+<vertex x="55.626" y="10.414"/>
+<vertex x="51.816" y="10.414"/>
+<vertex x="49.276" y="12.954"/>
+</polygon>
 <polygon width="0.2032" layer="1" pour="cutout">
 <vertex x="47.498" y="9.906"/>
 <vertex x="48.768" y="9.906"/>
@@ -1721,19 +1731,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="47.498" y="12.954"/>
 </polygon>
 </signal>
-<signal name="N$4">
-<polygon width="0.2032" layer="16" pour="cutout">
-<vertex x="47.498" y="12.954"/>
-<vertex x="47.498" y="9.906"/>
-<vertex x="48.768" y="9.906"/>
-<vertex x="52.324" y="6.35"/>
-<vertex x="55.626" y="6.35"/>
-<vertex x="55.626" y="10.414"/>
-<vertex x="51.816" y="10.414"/>
-<vertex x="49.276" y="12.954"/>
-</polygon>
-</signal>
-<signal name="N$5">
+<signal name="CUTOUT_USB2">
 <polygon width="0.2032" layer="16" pour="cutout">
 <vertex x="46.482" y="10.922"/>
 <vertex x="44.958" y="10.922"/>
