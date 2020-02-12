@@ -162,7 +162,7 @@
 <wire x1="59.36" y1="0" x2="59.36" y2="27.93" width="0" layer="20"/>
 <wire x1="59.36" y1="27.93" x2="0" y2="27.93" width="0" layer="20"/>
 <wire x1="0" y1="27.93" x2="0" y2="0" width="0" layer="20"/>
-<text x="14.097" y="0.889" size="1.4224" layer="25">MARS
+<text x="12.192" y="0.762" size="1.4224" layer="25">MARS
 Base Station v1</text>
 <hole x="21" y="24.6" drill="2"/>
 <hole x="21" y="5.6" drill="2"/>
@@ -1299,8 +1299,8 @@ Please make sure your boards conform to these design rules.
 <via x="41.021" y="12.573" extent="1-16" drill="0.35"/>
 <via x="33.528" y="20.066" extent="1-16" drill="0.35"/>
 <via x="1.27" y="6.604" extent="1-16" drill="0.35"/>
-<via x="8.89" y="6.604" extent="1-16" drill="0.35"/>
-<via x="10.414" y="3.302" extent="1-16" drill="0.35"/>
+<via x="8.636" y="6.858" extent="1-16" drill="0.35"/>
+<via x="10.668" y="6.858" extent="1-16" drill="0.35"/>
 <via x="21.336" y="7.62" extent="1-16" drill="0.35"/>
 <via x="25.654" y="9.906" extent="1-16" drill="0.35"/>
 <via x="3.048" y="21.336" extent="1-16" drill="0.35"/>

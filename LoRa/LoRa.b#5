@@ -1361,7 +1361,7 @@ Please make sure your boards conform to these design rules.
 <via x="3.048" y="21.336" extent="1-16" drill="0.35"/>
 <via x="3.048" y="16.002" extent="1-16" drill="0.35"/>
 <via x="37.592" y="20.32" extent="1-16" drill="0.35"/>
-<via x="49.53" y="7.366" extent="1-16" drill="0.35"/>
+<via x="49.43" y="7.366" extent="1-16" drill="0.35"/>
 <via x="33.528" y="6.096" extent="1-16" drill="0.35"/>
 <polygon width="0.2032" layer="1" rank="4">
 <vertex x="36.322" y="27.94"/>

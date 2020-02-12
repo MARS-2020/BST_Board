@@ -162,8 +162,8 @@
 <wire x1="59.36" y1="0" x2="59.36" y2="27.93" width="0" layer="20"/>
 <wire x1="59.36" y1="27.93" x2="0" y2="27.93" width="0" layer="20"/>
 <wire x1="0" y1="27.93" x2="0" y2="0" width="0" layer="20"/>
-<text x="12.192" y="0.762" size="1.4224" layer="25">MARS
-Base Station v1</text>
+<text x="11.938" y="0.889" size="1.778" layer="25">MARS
+BST_Board v1</text>
 <hole x="21" y="24.6" drill="2"/>
 <hole x="21" y="5.6" drill="2"/>
 <hole x="49.7" y="15.8" drill="2"/>

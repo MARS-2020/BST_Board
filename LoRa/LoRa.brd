@@ -167,6 +167,7 @@ BST_Board v1</text>
 <hole x="21" y="24.6" drill="2"/>
 <hole x="21" y="5.6" drill="2"/>
 <hole x="49.7" y="15.8" drill="2"/>
+<text x="16.51" y="25.4" size="1.778" layer="26" rot="MR0">Jacob Bobson</text>
 </plain>
 <libraries>
 <library name="microbuilder">
