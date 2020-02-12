@@ -5156,8 +5156,12 @@ CONN_03
 </parts>
 <sheets>
 <sheet>
-<description>Power and FTDI</description>
+<description>Power</description>
 <plain>
+<text x="55.88" y="218.44" size="1.778" layer="91">BUCK CONVERTER</text>
+<text x="142.24" y="210.82" size="1.778" layer="91">USB MALE CONNECTOR</text>
+<text x="48.26" y="165.1" size="1.778" layer="91">CAPACITOR NETWORK FOR BUCK CONVERTER OUTPUT</text>
+<text x="147.32" y="165.1" size="1.778" layer="91">STAR GROUND HEADERS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5342,9 +5346,10 @@ CONN_03
 <description>Microcontroller and LoRa</description>
 <plain>
 <text x="205.74" y="228.6" size="1.778" layer="91">LoRa Module</text>
-<text x="175.26" y="175.26" size="1.778" layer="91">PULL UP CS and RST using 100k?</text>
-<text x="185.42" y="121.92" size="1.778" layer="91">OSCILLATOR</text>
+<text x="182.88" y="124.46" size="1.778" layer="91">EXTERNAL OSCILLATOR FOR USB PERIPHERAL</text>
 <text x="81.28" y="129.54" size="1.778" layer="91">ESD Protection</text>
+<text x="167.64" y="157.48" size="1.778" layer="91">PROGRAMMING HEADER</text>
+<text x="73.66" y="223.52" size="1.778" layer="91">STM32L0</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -5618,6 +5623,11 @@ CONN_03
 <pinref part="U2" gate="G$1" pin="MOSI"/>
 <label x="182.88" y="213.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PA7"/>
+<wire x1="58.42" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
+<label x="40.64" y="187.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS" class="0">
 <segment>
@@ -5734,13 +5744,6 @@ CONN_03
 <pinref part="U2" gate="G$1" pin="MISO"/>
 <wire x1="198.12" y1="215.9" x2="182.88" y2="215.9" width="0.1524" layer="91"/>
 <label x="182.88" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SPI_MOSI" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA7"/>
-<wire x1="58.42" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
-<label x="40.64" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
