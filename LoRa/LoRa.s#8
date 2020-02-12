@@ -5618,6 +5618,11 @@ CONN_03
 <pinref part="U2" gate="G$1" pin="MOSI"/>
 <label x="182.88" y="213.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PA7"/>
+<wire x1="58.42" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
+<label x="40.64" y="187.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS" class="0">
 <segment>
@@ -5734,13 +5739,6 @@ CONN_03
 <pinref part="U2" gate="G$1" pin="MISO"/>
 <wire x1="198.12" y1="215.9" x2="182.88" y2="215.9" width="0.1524" layer="91"/>
 <label x="182.88" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SPI_MOSI" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA7"/>
-<wire x1="58.42" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
-<label x="40.64" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">

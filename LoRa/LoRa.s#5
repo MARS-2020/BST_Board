@@ -5156,7 +5156,7 @@ CONN_03
 </parts>
 <sheets>
 <sheet>
-<description>Power and FTDI</description>
+<description>Power</description>
 <plain>
 <text x="55.88" y="218.44" size="1.778" layer="91">BUCK CONVERTER</text>
 <text x="142.24" y="210.82" size="1.778" layer="91">USB MALE CONNECTOR</text>

@@ -11137,9 +11137,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2">
+<attribute name="SPICEPREFIX" value="L"/>
+</part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1KΩ"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
+<attribute name="SPICEPREFIX" value="G"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11401,7 +11405,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="U$16" gate="G$1" x="45.72" y="106.68"/>
 <instance part="SUPPLY6" gate="G$1" x="12.7" y="190.5"/>
 <instance part="LED1" gate="G$1" x="12.7" y="218.44"/>
-<instance part="R2" gate="G$1" x="27.94" y="223.52"/>
+<instance part="R2" gate="G$1" x="12.7" y="231.14" rot="R90"/>
 <instance part="GND5" gate="1" x="12.7" y="205.74"/>
 </instances>
 <busses>
@@ -11833,19 +11837,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="22.86" y1="223.52" x2="12.7" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="223.52" x2="12.7" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA3"/>
-<wire x1="58.42" y1="198.12" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="198.12" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="223.52" x2="33.02" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="226.06" x2="12.7" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
