@@ -1353,7 +1353,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="J4" pad="SH2"/>
 <contactref element="J4" pad="SH3"/>
 <contactref element="J4" pad="SH1"/>
-<contactref element="U1" pad="44"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U2" pad="5P"/>
